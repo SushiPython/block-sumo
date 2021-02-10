@@ -13,7 +13,6 @@ public class gblock implements CommandExecutor {
     private void spawnItem(World w) {
         //Bukkit.broadcastMessage("Spawn Item function called");
         Material[] items = {Material.STICK, Material.BLAZE_ROD, Material.END_CRYSTAL};
-        Material[] items2 = {Material.WOODEN_SWORD, Material.st, Material.END_CRYSTAL};
         Bukkit.getScheduler().runTaskLater(Bukkit.getPluginManager().getPlugin("BSumo"), () -> {
             Random generator = new Random();
             w.dropItem(new Location(w, 42, 113, -131), new ItemStack(items[generator.nextInt(items.length)]));
