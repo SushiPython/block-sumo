@@ -1,0 +1,19 @@
+name: BSumo
+version: ${project.version}
+main: us.sushipython.bsumo.BSumo
+api-version: 1.16
+authors: [ SushiPython ]
+description: Block sumo for 1.16
+commands:
+  gblock:
+    usage: /gblock
+    description: Spawn item on gold block
+    aliases: [gb]
+  queue:
+    usage: /queue
+    description: Queue for minigame
+    aliases: [ q ]
+  clearworld:
+    usage: /gblock
+    description: Clear the world
+    aliases: [ cw ]

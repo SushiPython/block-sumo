@@ -1,0 +1,14 @@
+us\sushipython\bsumo\events\changecolor.class
+us\sushipython\bsumo\events\protstop.class
+us\sushipython\bsumo\events\antistonebreak.class
+us\sushipython\bsumo\commands\gblock.class
+us\sushipython\bsumo\misc\clear.class
+us\sushipython\bsumo\events\deathheight.class
+us\sushipython\bsumo\events\railgun.class
+us\sushipython\bsumo\misc\spawn.class
+us\sushipython\bsumo\BSumo.class
+us\sushipython\bsumo\events\antifall.class
+us\sushipython\bsumo\events\nooffhand.class
+us\sushipython\bsumo\commands\queue.class
+us\sushipython\bsumo\events\antibrickbreaktnt.class
+us\sushipython\bsumo\commands\clearworld.class
